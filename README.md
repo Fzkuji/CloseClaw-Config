@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.png" alt="CloseClaw-Config" width="128" />
+</p>
+
 # CloseClaw-Config
 
 Route OpenClaw conversations through Claude Code (ACP) instead of direct Anthropic API calls.
