@@ -1,0 +1,8 @@
+{
+  "dmPolicy": "allowlist",
+  "allowFrom": [
+    "你的Discord用户雪花ID"
+  ],
+  "groups": {},
+  "pending": {}
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>ai.claude.discord</string>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>ThrottleInterval</key>
+    <integer>10</integer>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/bin/bash</string>
+      <string>/Users/fzkuji/.local/bin/claude-discord-channel</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/Users/fzkuji</string>
+    <key>StandardOutPath</key>
+    <string>/Users/fzkuji/.claude/logs/discord.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/fzkuji/.claude/logs/discord.err.log</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+      <key>HOME</key>
+      <string>/Users/fzkuji</string>
+      <key>PATH</key>
+      <string>/Users/fzkuji/.bun/bin:/Users/fzkuji/.local/bin:/Users/fzkuji/.npm-global/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+      <key>TMPDIR</key>
+      <string>/var/folders/sx/h7ytffkx34l0wzcjgl8nf60h0000gn/T/</string>
+    </dict>
+  </dict>
+</plist>
